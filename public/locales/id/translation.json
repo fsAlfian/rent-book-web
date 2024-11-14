@@ -1,8 +1,9 @@
 {
-    "dashboard": "Dashboard",
+    "community": "Komunitas",
+    "dashboard": "Dasbor",
     "sales": "Sales",
-    "analytics": "Analytics",
-    "apps": "Apps",
+    "analytics": "Analitik",
+    "apps": "Aplikasi",
     "components": "Components",
     "elements": "Elements",
     "font_icons": "Font Icons",

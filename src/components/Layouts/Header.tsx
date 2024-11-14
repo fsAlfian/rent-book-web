@@ -6,9 +6,11 @@ import { toggleRTL, toggleTheme,toggleSidebar } from '../../store/themeConfigSli
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import Dropdown from '../Dropdown';
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
 const Header = () => {
     const location = useLocation();
+    
     useEffect(() => {
         const selector = document.querySelector('ul.horizontal-menu a[href="' + window.location.pathname + '"]');
         if (selector) {
@@ -192,6 +194,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
+                    
                     <div className="sm:flex-1 ltr:sm:ml-0 ltr:ml-auto sm:rtl:mr-0 rtl:mr-auto flex items-center space-x-1.5 lg:space-x-2 rtl:space-x-reverse dark:text-[#d0d2d6]">
                         <div className="sm:ltr:mr-auto sm:rtl:ml-auto">
                             <form
@@ -626,6 +629,7 @@ const Header = () => {
                             </Dropdown>
                         </div>
                     </div>
+                    
                 </div>
 
                 {/* horizontal menu */}
