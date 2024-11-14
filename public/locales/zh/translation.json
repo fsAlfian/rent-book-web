@@ -120,9 +120,5 @@
     "checkbox": "复选框",
     "skin": "皮肤",
     "sticky_header": "粘性标题",
-    "clone_header": "克隆标题",
-    "coming_soon_boxed": "即将推出盒装",
-    "coming_soon_cover": "即将推出封面",
-    "contact_us_boxed": "联系我们 盒装",
-    "contact_us_cover": "联系我们封面"
+    "clone_header": "克隆标题"
 }

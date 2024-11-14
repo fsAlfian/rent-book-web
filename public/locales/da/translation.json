@@ -120,9 +120,5 @@
     "checkbox": "Afkrydsningsfelt",
     "skin": "Hud",
     "sticky_header": "Sticky Header",
-    "clone_header": "Klon header",
-    "coming_soon_boxed": "Kommer snart i boks",
-    "coming_soon_cover": "Kommer snart cover",
-    "contact_us_boxed": "Kontakt os Boxed",
-    "contact_us_cover": "Kontakt os Cover"
+    "clone_header": "Klon header"
 }
